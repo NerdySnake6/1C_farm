@@ -260,6 +260,7 @@
 			<Role>ПолныеПрава</Role>
 			<CommonModule>УчетФермы</CommonModule>
 			<CommonModule>СервисФермы</CommonModule>
+			<ScheduledJob>СнятьПросроченныеБрони</ScheduledJob>
 			<CommonForm>РабочийСтол</CommonForm>
 			<CommonForm>ПанельПокупка</CommonForm>
 			<CommonForm>ПанельПродажа</CommonForm>
@@ -271,13 +272,13 @@
 			<Document>Приход</Document>
 			<Document>Расход</Document>
 			<Document>Бронирование</Document>
+			<Enum>СтатусыБрони</Enum>
 			<Report>ОстаткиПродукции</Report>
 			<Report>ПродажиЗаПериод</Report>
 			<Report>ДоступностьПродукции</Report>
 			<InformationRegister>Цены</InformationRegister>
 			<AccumulationRegister>ОстаткиПродукции</AccumulationRegister>
 			<AccumulationRegister>РезервыПродукции</AccumulationRegister>
-			<ScheduledJob>СнятьПросроченныеБрони</ScheduledJob>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
