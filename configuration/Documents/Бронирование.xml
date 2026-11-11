@@ -50,7 +50,7 @@
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm>Document.Бронирование.Form.Форма</DefaultObjectForm>
-			<DefaultListForm/>
+			<DefaultListForm>Document.Бронирование.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
@@ -279,6 +279,7 @@
 				</Properties>
 			</Attribute>
 			<Form>Форма</Form>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="0394620b-b788-5a0d-8123-a4ee532ac7fe">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.Бронирование.Товары" category="TabularSection">

@@ -57,18 +57,31 @@ def check_markdown(path, pending_package=False):
         target = urlsplit(value.strip('<>'))
         if not target.scheme and target.path:
             resolved = (path.parent / unquote(target.path)).resolve()
-            bundle = ROOT / f"deliverables/Комплект_Молочная_ферма_v{FACTS['configuration_version']}.zip"
+            bundle = ROOT / f"deliverables/Комплект_Молочная_ферма_v{FACTS['source_configuration_version']}.zip"
             if not (pending_package and resolved == bundle):
                 assert resolved.exists(), (path, value)
 
 
 def check(pending_package=False):
     """Check the current set, source evidence and optional preservation records."""
-    active = {p for p in DOC_ROOT.rglob('*') if p.suffix in {'.docx', '.pptx'} and 'Архив' not in p.parts}
-    assert active == set(OUTPUTS.values()), active.symmetric_difference(OUTPUTS.values())
+    additional_files = (
+        '04_Тестирование/Официальный_ответ_на_претензию.docx',
+        '05_Презентация/Молочная_ферма_Луговая_1С_светлый.pptx',
+        '05_Презентация/Молочная_ферма_Луговая_1С_тёмная.pptx',
+        '07_Управление_проектом/План_управления_проектом.docx',
+        '07_Управление_проектом/Устав_проекта.docx',
+    )
+    active = {
+        path for path in DOC_ROOT.rglob('*')
+        if path.suffix in {'.docx', '.pptx'} and 'Архив' not in path.parts
+        and not path.name.startswith('~$')
+    }
+    expected = set(OUTPUTS.values()) | {DOC_ROOT / name for name in additional_files}
+    assert active == expected, active.symmetric_difference(expected)
     results = {key: check_word(path) for key, path in OUTPUTS.items() if path.suffix == '.docx'}
-    assert results['navigation']['local_links'] == 5
-    for path in [ROOT / 'README.md', *(DOC_ROOT / '06_Технические_материалы').glob('*.md')]:
+    assert results['navigation']['local_links'] == 11
+    technical = (DOC_ROOT / '06_Технические_материалы').glob('*.md')
+    for path in [ROOT / 'README.md', *technical]:
         check_markdown(path, pending_package=pending_package)
     names = ['runtime-tests.txt', 'form-tests.txt', 'role-Покупка.txt', 'role-Продажа.txt', 'reservation-tests.txt', 'reservation-form-tests.txt']
     counts = [len(read_results(name)) for name in names]

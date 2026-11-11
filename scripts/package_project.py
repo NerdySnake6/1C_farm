@@ -6,7 +6,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 from check_documentation import check
 from document_common import FACTS, ROOT
 
-VERSION = FACTS['configuration_version']
+VERSION = FACTS['source_configuration_version']
 OUTPUT = ROOT / f'deliverables/Комплект_Молочная_ферма_v{VERSION}.zip'
 PREFIX = 'Молочная_ферма/'
 
@@ -21,7 +21,7 @@ def current_files():
                 continue
             if any(part in {'Архив', '__pycache__', 'node_modules', '.build'} for part in path.parts):
                 continue
-            if path.name == '.DS_Store' or path.suffix in {'.pyc', '.zip', '.pdf'}:
+            if path.name.startswith('~$') or path.name == '.DS_Store' or path.suffix in {'.pyc', '.zip', '.pdf'}:
                 continue
             files.append(path)
     assert len(files) == len(set(files))

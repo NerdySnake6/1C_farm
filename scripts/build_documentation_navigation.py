@@ -9,9 +9,8 @@ from docx.shared import Pt
 from document_common import DOC_ROOT, FACTS, OUTPUTS, new_document, page, paragraph, save_document, table
 
 
-def file_link(document, key, label):
-    """Add a portable relative link to a current Word or PowerPoint file."""
-    target=OUTPUTS[key].relative_to(DOC_ROOT).as_posix()
+def file_link(document, target, label):
+    """Add a portable relative link to a project file."""
     relation=document.part.relate_to(quote(target),RELATIONSHIP_TYPE.HYPERLINK,is_external=True)
     item=document.add_paragraph()
     link=OxmlElement('w:hyperlink')
@@ -36,7 +35,7 @@ def build():
     title=doc.add_paragraph('Материалы проекта Молочная ферма Луговая',style='Title')
     for run in title.runs:
         run.font.size=Pt(24)
-    paragraph(doc,'Молочная ферма Луговая. Версия '+FACTS['configuration_version']+'. Автор: '+FACTS['author']+'.')
+    paragraph(doc,'Молочная ферма Луговая. Версия '+FACTS['source_configuration_version']+'. Руководитель проекта: '+FACTS['author']+'.')
     paragraph(doc,'Откройте нужный документ по ссылке ниже. Актуальные материалы доступны отдельными файлами в папке Документация.')
     doc.add_heading('Результат доработки',level=2)
     table(doc,['Состояние молока','Склад','Резерв','Свободно'],[
@@ -52,7 +51,7 @@ def build():
         ('testing','Документация по тестированию Word','Smoke-тест в разделе 3; подробные сценарии по ролям в разделах 4–6; журнал и дефекты в разделе 8. Автоматические результаты в приложении А.'),
         ('design','Обоснование дизайна Word','Оформление новых команд, состояния и отчёта рассматривается в первом разделе.'),
     ]:
-        file_link(doc,key,label)
+        file_link(doc, OUTPUTS[key].relative_to(DOC_ROOT).as_posix(), label)
         paragraph(doc,description)
     page(doc,'Короткая демонстрация на занятии')
     for index,text in enumerate([
@@ -64,13 +63,21 @@ def build():
     ],1):
         paragraph(doc,f'{index}. {text}')
     paragraph(doc,'Демонстрация выполняется в отдельной копии базы. Чтобы вернуть исходное состояние после продажи, сначала отмените проведение Расхода, затем отмените бронь.')
-    doc.add_heading('Что подтверждено',level=2)
-    paragraph(doc,'В шести протоколах — 83 успешные автоматические проверки. Файлы лежат в 04_Тестирование/Протоколы. Сохранённые DT и CF находятся в deliverables; рабочая база — demo_base_v1.2.0. Запуск: Запустить_ферму_v1.2.0.command.')
-    paragraph(doc,'Бронь продаётся целиком; автоматического срока отмены нет. Учебная лицензия запрещает печать и сохранение табличного документа. Щелчки мышью и читабельность следует проверить вручную. Старые снимки оставлены в приложениях с указанием, что они сделаны до доработки.')
-    doc.add_heading('Вопросы для собрания',level=2)
-    for text in ['Что я делал вчера, чтобы помочь проекту?', 'Что я буду делать сегодня, чтобы помочь проекту?', 'Какие проблемы мешают успешной работе над проектом?']:
-        paragraph(doc,text)
-    paragraph(doc,'Это анонс занятия. Ответы даются по фактической работе; отдельная подготовка к моделированию собрания не требуется.')
+    doc.add_heading('Поставка и результаты проверок', level=2)
+    file_link(doc, '../deliverables/Farm_Lugovaya_v1.2.2.dt', 'Демонстрационная база 1.2.2')
+    file_link(doc, '04_Тестирование/Протоколы/Поставка_1.2.2/README.md', 'Проверки поставки 1.2.2')
+    paragraph(doc, 'Бронь продаётся целиком. Просроченные брони снимаются регламентным заданием. '
+              'Интервал задания — 60 секунд. При демонстрации используйте свежую копию DT.')
+    doc.add_heading('Управление проектом и вклад команды', level=2)
+    file_link(doc, '07_Управление_проектом/Устав_проекта.docx', 'Устав проекта')
+    file_link(doc, '07_Управление_проектом/План_управления_проектом.docx', 'План управления проектом')
+    file_link(doc, '04_Тестирование/Официальный_ответ_на_претензию.docx', 'Официальный ответ на претензию')
+    paragraph(doc, 'Калинин И. В. руководил проектом и подготовил исходную конфигурацию. '
+              'Иванов Ф. В. добавил отчёт о доступности и задание снятия брони, подготовил устав и план.')
+    paragraph(doc, 'Ефимов С. Р. провёл ручные проверки и доработал поставку по претензии. '
+              'Истрашкин М. Д. подготовил редакции описания системы и дизайна. '
+              'Варианты презентации добавил участник az299best.')
+    file_link(doc, '../README.md', 'Вклад команды и ссылки на коммиты в README')
     save_document(doc,'navigation','Бронирование продукции Навигация по комплекту')
 
 
