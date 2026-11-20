@@ -1,0 +1,2 @@
+36e9edae44de7612339e3c6342135d5a2ff2a00027a0f3c1fa8316f033bcf592  deliverables/Farm_Lugovaya_v1.2.4.cf
+fc960aadd90f11bfcdda367f6fb80ae59ea6a7ffb0b55924e1d7a3459aefe57a  deliverables/Farm_Lugovaya_v1.2.4.dt

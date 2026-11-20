@@ -34,6 +34,9 @@ def main():
         args = ['CREATEINFOBASE', f'File="{DATABASE}";Locale="ru_RU";']
     elif action == 'reservations':
         args = ['ENTERPRISE', '/F', str(DATABASE), '/N', 'Администратор', '/C', f'FarmReservationTests={ROOT}']
+    elif action == 'schedule':
+        args = ['ENTERPRISE', '/F', str(DATABASE), '/N', 'Администратор',
+                '/C', f'FarmScheduleTests={ROOT}']
     elif action == 'tests':
         args = ['ENTERPRISE', '/F', str(DATABASE), '/N', 'Администратор', '/C', f'FarmTests={ROOT}']
     elif action in ['purchase', 'sales']:
