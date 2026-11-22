@@ -1,0 +1,592 @@
+[
+  {
+    "time": "2026-11-21 11:26:00",
+    "role": "Администратор",
+    "label": "SM01-Рабочий_стол",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:27:20",
+    "role": "Администратор",
+    "label": "SM02-01-Покупка",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:27:29",
+    "role": "Администратор",
+    "label": "SM02-02-Продажа",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:27:39",
+    "role": "Администратор",
+    "label": "SM02-03-Покупка",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:27:47",
+    "role": "Администратор",
+    "label": "SM02-04-Продажа",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:27:54",
+    "role": "Администратор",
+    "label": "SM02-05-Покупка",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:28:02",
+    "role": "Администратор",
+    "label": "SM02-06-Продажа",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:28:20",
+    "role": "Администратор",
+    "label": "SM03-Молоко",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:28:39",
+    "role": "Администратор",
+    "label": "SM03-Творог",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:28:54",
+    "role": "Администратор",
+    "label": "SM03-Сметана",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:29:10",
+    "role": "Администратор",
+    "label": "SM04-Цены",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:29:36",
+    "role": "Администратор",
+    "label": "SM04-Исходные_остатки",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:29:38",
+    "role": "Администратор",
+    "label": "SM04-Склад_резерв_доступно",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:29:46",
+    "role": "Администратор",
+    "label": "SM04-Склад_резерв_доступно",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:30:15",
+    "role": "Администратор",
+    "label": "SM04-Склад_резерв_доступно",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 66914368,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:30:59",
+    "role": "Покупка",
+    "label": "SM05-Вход_Покупка",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 8329152,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:32:44",
+    "role": "Покупка",
+    "label": "SM05-Приход_180_до_проведения",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 8329152,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:32:53",
+    "role": "Покупка",
+    "label": "SM05-Результат_проведения",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 8329152,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:33:20",
+    "role": "Покупка",
+    "label": "SM05-Остаток_77",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 8329152,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:33:38",
+    "role": "Покупка",
+    "label": "SM05-Журнал_проведенный",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 8329152,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:33:57",
+    "role": "Покупка",
+    "label": "SM05-Приход_снят",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 8329152,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:34:14",
+    "role": "Покупка",
+    "label": "SM05-Восстановлен_75",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 8329152,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:34:37",
+    "role": "Продажа",
+    "label": "SM06-Вход_Продажа",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:36:14",
+    "role": "Продажа",
+    "label": "SM06-Продажа_90_до_проведения",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:36:25",
+    "role": "Продажа",
+    "label": "SM06-Продажа_проведена",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:36:49",
+    "role": "Продажа",
+    "label": "SM06-Остаток_74",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:37:07",
+    "role": "Продажа",
+    "label": "SM06-Журнал_продажа_2",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:37:24",
+    "role": "Продажа",
+    "label": "SM06-Продажа_снята",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:37:42",
+    "role": "Продажа",
+    "label": "SM06-Восстановлен_75",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:39:30",
+    "role": "Продажа",
+    "label": "SM07-Черновик",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:39:57",
+    "role": "Продажа",
+    "label": "SM07-Черновик_резерв_0",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:40:29",
+    "role": "Продажа",
+    "label": "SM07-Бронь_проведена",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:41:01",
+    "role": "Продажа",
+    "label": "SM07-Резерв_20",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:41:13",
+    "role": "Продажа",
+    "label": "SM07-Резерв_20",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:41:43",
+    "role": "Продажа",
+    "label": "SM07-Склад75_Резерв20_Свободно55",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:42:41",
+    "role": "Продажа",
+    "label": "SM08-Расход56_записан",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:42:51",
+    "role": "Продажа",
+    "label": "SM08-Отказ_проведения",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:43:03",
+    "role": "Продажа",
+    "label": "SM08-Причина_отказа",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-21 11:43:14",
+    "role": "Продажа",
+    "label": "SM08-Расход3_непроведен",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 14816404,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:33:54",
+    "role": "Продажа",
+    "label": "SM08-После_отказа_75_20_55",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:34:26",
+    "role": "Продажа",
+    "label": "SM09-Бронь1_отменена",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:34:49",
+    "role": "Продажа",
+    "label": "SM09-Остатки_75_0_75",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:35:20",
+    "role": "Продажа",
+    "label": "SM10-Новая_бронь20_проведена",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:35:32",
+    "role": "Продажа",
+    "label": "SM10-Продажа_по_брони2",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:35:43",
+    "role": "Продажа",
+    "label": "SM10-Бронь2_продано",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:36:00",
+    "role": "Продажа",
+    "label": "SM10-Остатки_55_0_55",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:36:20",
+    "role": "Продажа",
+    "label": "SM10-Расход4_проведен",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:36:30",
+    "role": "Продажа",
+    "label": "SM11-Расход4_снят",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:36:56",
+    "role": "Продажа",
+    "label": "SM11-После_расхода_75_20_55",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:37:18",
+    "role": "Продажа",
+    "label": "SM11-Бронь2_снова_действует",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:37:25",
+    "role": "Продажа",
+    "label": "SM11-Бронь2_снята",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:37:48",
+    "role": "Продажа",
+    "label": "SM11-Итог_75_0_75",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 9178248,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:38:10",
+    "role": "Покупка",
+    "label": "SM12-Покупка_рабочий_стол",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 7210768,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:38:16",
+    "role": "Покупка",
+    "label": "SM12-Покупка_раздел",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 7210768,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:38:42",
+    "role": "Продажа",
+    "label": "SM12-Продажа_рабочий_стол",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 5839426,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:38:49",
+    "role": "Продажа",
+    "label": "SM12-Продажа_раздел",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 5839426,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:39:17",
+    "role": "Администратор",
+    "label": "SM12-Администратор_рабочий_стол",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 10685100,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:39:23",
+    "role": "Администратор",
+    "label": "SM12-Администратор_покупка",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 10685100,
+      "title": "Молочная ферма"
+    }
+  },
+  {
+    "time": "2026-11-22 20:39:29",
+    "role": "Администратор",
+    "label": "SM12-Администратор_продажа",
+    "window": {
+      "app": "process:C:\\Program Files (x86)\\1cv8t\\8.3.27.1688\\bin\\1cv8t.exe",
+      "id": 10685100,
+      "title": "Молочная ферма"
+    }
+  }
+]
