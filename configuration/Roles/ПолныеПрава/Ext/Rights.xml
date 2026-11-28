@@ -105,6 +105,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>SaveUserData</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>Output</name>
 			<value>true</value>
 		</right>
