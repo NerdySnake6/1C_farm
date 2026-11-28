@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-07",
+  "FOT": 4550000,
+  "labour_with_taxes": 5924100,
+  "licenses": 264100,
+  "computers_monitors": 455200,
+  "cloud": 131790,
+  "overhead": 296205,
+  "direct": 8031395,
+  "BAC": 8736395,
+  "cost_with_reserves": 9136395,
+  "price_net": "11420493.75",
+  "VAT": "2512508.63",
+  "price_gross": "13933002.38",
+  "profit_tax": "571024.69",
+  "net_profit": "1713074.06",
+  "monthly_PV": [
+    2269719,
+    1660419,
+    1700419,
+    1660419,
+    1445419
+  ]
+}

@@ -1,0 +1,45 @@
+project_name: 1-_farm
+language_backend: LSP
+language_servers:
+- bsl
+encoding: utf-8
+ignore_all_files_in_gitignore: true
+ls_workspace_folders:
+- configuration
+ls_specific_settings:
+  bsl:
+    bsl_ls_version: 0.29.0
+ignored_paths:
+- .git/**
+- .build/**
+- .venv/**
+- '**/__pycache__/**'
+- '**/node_modules/**'
+- deliverables/**
+- assets/**
+- Документация/Архив/**
+- Документация/04_Тестирование/Протоколы/**
+- '**/*.log'
+- '**/~$*'
+- '**/*.1CD'
+- '**/*.cfl'
+- demo_base*/**
+read_only: false
+initial_prompt: >-
+  Read AGENTS.md and docs/status.md. Activate this repository explicitly,
+  read relevant thematic memories, then inspect affected source symbols. Canonical
+  implementation is configuration/. Documentation lives in docs/ and linked historical
+  evidence. Refresh relevant docs and short memories after substantial changes. Distinguish
+  implemented, planned and verified. Vanessa Automation: see docs/vanessa.md for the initial UI suite and docs/status.md for verified results.
+default_modes: null
+added_modes: null
+excluded_tools: []
+included_optional_tools: []
+fixed_tools: []
+symbol_info_budget: null
+line_ending: null
+read_only_memory_patterns: []
+ignored_memory_patterns: []
+ls_additional_workspace_folders: []
+activation_command: null
+activation_command_timeout: 180.0

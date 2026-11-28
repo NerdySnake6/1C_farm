@@ -1,0 +1,26 @@
+{
+  "version": "1.2.7",
+  "source_run": "final-automated-127-r2",
+  "release_sha256": {
+    "Farm_Lugovaya_v1.2.7_Autotests.dt": "eba4fcd04110f7d7d79acf759d9a1fdea932e8a992cfdbd3f3a318f641d2d796",
+    "Farm_Lugovaya_v1.2.7_Autotests.cf": "a46221e0ed11e8b4afe418a06c821c4c310d16fbcad4537bf4c8d195198d661d"
+  },
+  "standalone_checks": {
+    "runtime-tests.txt": 21,
+    "form-tests.txt": 10,
+    "reservation-tests.txt": 32,
+    "reservation-form-tests.txt": 9,
+    "schedule-tests.txt": 4,
+    "role-Покупка.txt": 9,
+    "role-Продажа.txt": 9
+  },
+  "standalone_total": 94,
+  "embedded_runs": [
+    41,
+    41
+  ],
+  "manual_steps": 12,
+  "manual_sequence_note": "Одна восстановленная копия DT, SM01–SM12 по порядку, с паузой по просьбе пользователя внутри SM06. База между шагами не восстанавливалась.",
+  "SM10_revision": "Создать новую бронь на20л. Снятую бронь нельзя проводить повторно.",
+  "ui_extra": "После SM12 запуск обычной кнопкой41/41, результат сохранён на активной странице; уход в Покупку и возврат сбрасывают статусы."
+}

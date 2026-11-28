@@ -118,5 +118,10 @@
 		<Metadata name="Style.Луговой" id="c88219a1-d29c-5f81-b6f6-31eab528efcc" configVersion="e6a6f580c88d27469d085cab0f375a5f00000000"/>
 		<Metadata name="Subsystem.Покупка" id="22042c85-8da5-5b52-9164-9614cb986a6c" configVersion="dfbb723b21df5941a05bd72f536d3dd600000000"/>
 		<Metadata name="Subsystem.Продажа" id="97e2b442-00e3-5313-b9cd-d451758c552e" configVersion="3c4b6bbe03f1d94486c357c104c3816e00000000"/>
-	</ConfigVersions>
+
+<Metadata name="CommonForm.Автотесты" id="2e9bac04-3899-4b80-afc1-4cb20a507829" configVersion="bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0000000"/>
+<Metadata name="CommonForm.Автотесты.Form" id="2e9bac04-3899-4b80-afc1-4cb20a507829.0" configVersion="ccccccccccccccccccccccccccccccccccc0000000"/>
+<Metadata name="CommonForm.Автотесты.Form.Module" id="2e9bac04-3899-4b80-afc1-4cb20a507829.0" configVersion="ddddddddddddddddddddddddddddddddddd0000000"/>
+<Metadata name="Subsystem.Тестирование" id="05a33a3f-0bab-4abc-853a-e754251946d7" configVersion="eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000"/>
+</ConfigVersions>
 </ConfigDumpInfo>

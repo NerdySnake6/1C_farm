@@ -255,7 +255,7 @@ def add_roles():
             return '<object><name>'+ref+'</name>'+''.join('<right><name>'+n+'</name><value>true</value></right>' for n in names)+'</object>'
         platform = ['ThinClient','ThickClient','WebClient','Output','MainWindowModeNormal']
         if role=='ПолныеПрава':
-            platform += ['Administration','DataAdministration','ActiveUsers','EventLog','AllFunctionsMode','ExternalConnection']
+            platform += ['Administration','DataAdministration','ActiveUsers','EventLog','AllFunctionsMode','ExternalConnection','InteractiveOpenExtDataProcessors']
         rights += grant('Configuration.МолочнаяФерма',platform)
         for sub in ['Покупка','Продажа']:
             if sub==role or role=='ПолныеПрава':

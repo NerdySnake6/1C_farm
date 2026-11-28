@@ -65,6 +65,10 @@
 	<object>
 		<name>Configuration.МолочнаяФерма</name>
 		<right>
+			<name>InteractiveOpenExtDataProcessors</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>Administration</name>
 			<value>true</value>
 		</right>
@@ -592,6 +596,20 @@
 		</right>
 		<right>
 			<name>InteractiveChangeOfPosted</name>
+			<value>true</value>
+		</right>
+	</object>
+<object>
+		<name>CommonForm.Автотесты</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+<object>
+		<name>Subsystem.Тестирование</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

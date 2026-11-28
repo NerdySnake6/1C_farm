@@ -1,0 +1,142 @@
+[
+  {
+    "step": "SM01",
+    "role": "Администратор",
+    "status": "PASS",
+    "result": "Восстановленная из итогового DT база 1.2.7 открылась без ошибки",
+    "evidence": [
+      "SM01-start.jpg"
+    ]
+  },
+  {
+    "step": "SM02",
+    "role": "Администратор",
+    "status": "PASS",
+    "result": "Три последовательные пары одиночных переходов Покупка/Продажа открыли соответствующие страницы",
+    "evidence": [
+      "SM02-purchase-1.jpg",
+      "SM02-sales-1.jpg",
+      "SM02-purchase-2.jpg",
+      "SM02-sales-2.jpg",
+      "SM02-purchase-3.jpg",
+      "SM02-sales-3.jpg"
+    ]
+  },
+  {
+    "step": "SM03",
+    "role": "Администратор",
+    "status": "PASS",
+    "result": "Все три карточки содержат название, единицу измерения и изображение с сохранением пропорций",
+    "evidence": [
+      "SM03-milk.jpg",
+      "SM03-cream.jpg",
+      "SM03-curd.jpg"
+    ]
+  },
+  {
+    "step": "SM04",
+    "role": "Администратор",
+    "status": "PASS",
+    "result": "Цены молоко/творог/сметана 90/360/280; склад 75/15/12, резерв 0, доступно равно складу.",
+    "evidence": [
+      "SM04-prices.jpg",
+      "SM04-initial-stock-review.jpg"
+    ]
+  },
+  {
+    "step": "SM05",
+    "role": "Покупка",
+    "status": "PASS",
+    "result": "Приход №000000002: 2 л × 90 =180 руб.; склад 77, резерв 0. Отмена проведения из журнала: склад75, резерв0.",
+    "evidence": [
+      "SM05-receipt-posted.jpg",
+      "SM05-receipts-journal.jpg",
+      "SM05-stock77.jpg",
+      "SM05-unposted.jpg",
+      "SM05-stock-restored75.jpg"
+    ]
+  },
+  {
+    "step": "SM06",
+    "role": "Продажа",
+    "status": "PASS",
+    "result": "Расход №000000002: 1 л ×90=90 руб.; склад74, резерв0. После отмены: склад75, резерв0.",
+    "evidence": [
+      "SM06-resume-visible.jpg",
+      "SM06-journal.jpg",
+      "SM06-stock74.jpg",
+      "SM06-unposted.jpg",
+      "SM06-stock-restored75.jpg"
+    ]
+  },
+  {
+    "step": "SM07",
+    "role": "Продажа",
+    "status": "PASS",
+    "result": "Бронь №000000001 на20л: запись оставляет резерв0; проведение даёт склад75/резерв20/доступно55.",
+    "evidence": [
+      "SM07-saved-unposted.jpg",
+      "SM07-draft-reserve0.jpg",
+      "SM07-posted-ready.jpg",
+      "SM07-full-report.jpg"
+    ]
+  },
+  {
+    "step": "SM08",
+    "role": "Продажа",
+    "status": "PASS",
+    "result": "Расход56л отказал: «Недостаточно свободной продукции: Молоко3,2%. Нехватка:1». Сохранён №000000003 непроведённым. Отчёт75/20/55 без изменений.",
+    "evidence": [
+      "SM08-refusal.jpg",
+      "SM08-saved-unposted.jpg",
+      "SM08-stock-unchanged.jpg"
+    ]
+  },
+  {
+    "step": "SM09",
+    "role": "Продажа",
+    "status": "PASS",
+    "result": "Бронь1 снята штатной кнопкой; история: Продажа, ручная отмена,21:14:29. После обновления отчёта75/0/75.",
+    "evidence": [
+      "SM09-cancel.jpg",
+      "SM09-stock-confirmed.jpg"
+    ]
+  },
+  {
+    "step": "SM10",
+    "role": "Продажа",
+    "status": "PASS",
+    "result": "Новая бронь №2 (копирование состава20л, без повторного проведения снятой). Штатная продажа создала один проведённый Расход№4 со ссылкой набронь2. СтатусПродано, отчёт55/0/55. Уточнение SM10: создавать новую бронь.",
+    "evidence": [
+      "SM10-new-posted.jpg",
+      "SM10-sale-by-reservation.jpg",
+      "SM10-sale-closed.jpg",
+      "SM10-stock55.jpg",
+      "SM10-linked-journal-refresh.jpg"
+    ]
+  },
+  {
+    "step": "SM11",
+    "role": "Продажа",
+    "status": "PASS",
+    "result": "Отмена проведения расхода4 восстановила75/20/55; штатная отмена брони2 затем дала75/0/75. Оба тестовых резерва сняты.",
+    "evidence": [
+      "SM11-linked-unposted.jpg",
+      "SM11-reserve-restored.jpg",
+      "SM11-bron-cancelled.jpg",
+      "SM11-final-restored75.jpg"
+    ]
+  },
+  {
+    "step": "SM12",
+    "role": "Все роли",
+    "status": "PASS",
+    "result": "Повторные входы в ту же базу Покупка, Продажа, Администратор по порядку. Покупка: поступления и цены; Продажа: продажи и брони; Администратор: оба набора и Автотесты. Между входами сеансы завершались.",
+    "evidence": [
+      "SM12-purchase.jpg",
+      "SM12-purchase-prices.jpg",
+      "SM12-sales.jpg",
+      "SM12-admin.jpg"
+    ]
+  }
+]

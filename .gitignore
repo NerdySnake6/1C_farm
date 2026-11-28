@@ -1,8 +1,23 @@
 .build/
+# Локальные тексты выступлений и исходники с готовой речью.
+**/Текст_защиты*
+**/План_защиты*
+/scripts/build_defense_notes.py
+/scripts/build_embedded_defense_notes.py
+/scripts/build_homework_materials.py
+/scripts/defense_slides*.json
+/scripts/homework_slides.json
+/scripts/sync_defense_127.py
+/Документация/04_Тестирование/Защита_21_ноября/*.pptx
+/Документация/04_Тестирование/Защита_21_ноября/*.zip
 __pycache__/
 *.py[cod]
 .DS_Store
-.serena/
+.serena/*
+!.serena/project.yml
+!.serena/memories/
+.serena/memories/*
+!.serena/memories/*.md
 .env
 .env.*
 !.env.example

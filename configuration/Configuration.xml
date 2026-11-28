@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Молочная ферма</v8:content>
+					<v8:content>Молочная ферма Луговая 1.2.7</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -51,7 +51,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ПолныеПрава</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.2.5</Version>
+			<Version>1.2.7</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -254,6 +254,7 @@
 			<Language>Русский</Language>
 			<Subsystem>Покупка</Subsystem>
 			<Subsystem>Продажа</Subsystem>
+            <Subsystem>Тестирование</Subsystem>
 			<Style>Луговой</Style>
 			<Role>Покупка</Role>
 			<Role>Продажа</Role>
@@ -262,6 +263,7 @@
 			<CommonModule>СервисФермы</CommonModule>
 			<ScheduledJob>СнятьПросроченныеБрони</ScheduledJob>
 			<CommonForm>РабочийСтол</CommonForm>
+            <CommonForm>Автотесты</CommonForm>
 			<CommonForm>ПанельПокупка</CommonForm>
 			<CommonForm>ПанельПродажа</CommonForm>
 			<Catalog>Номенклатура</Catalog>

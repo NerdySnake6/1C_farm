@@ -1,0 +1,180 @@
+{"time":"2026-11-21T09:59:28.583Z","role":"Администратор","label":"SM01-start","comment":"Обычный запуск восстановленной базы 1.2.7 от Администратора","windowId":1967738}
+{"time":"2026-11-21T09:59:48.416Z","role":"Администратор","label":"SM01-ready","comment":"Размер окна стабилизировался после запуска","windowId":1967738}
+{"time":"2026-11-21T09:59:58.236Z","role":"Администратор","label":"SM01-fullscreen","comment":"Развернут рабочий стол 1.2.7","windowId":1967738}
+{"time":"2026-11-21T10:00:05.329Z","role":"Администратор","label":"SM02-purchase-1","comment":"Первый одиночный щелчок по разделу Покупка","windowId":1967738}
+{"time":"2026-11-21T10:00:22.813Z","role":"Администратор","label":"SM02-sales-1","comment":"Первый переход в Продажу одним щелчком","windowId":1967738}
+{"time":"2026-11-21T10:00:29.267Z","role":"Администратор","label":"SM02-purchase-2","comment":"Второй переход в Покупку одним щелчком","windowId":1967738}
+{"time":"2026-11-21T10:00:36.252Z","role":"Администратор","label":"SM02-sales-2","comment":"Второй переход в Продажу одним щелчком","windowId":1967738}
+{"time":"2026-11-21T10:00:42.400Z","role":"Администратор","label":"SM02-purchase-3","comment":"Третий переход в Покупку одним щелчком","windowId":1967738}
+{"time":"2026-11-21T10:00:51.269Z","role":"Администратор","label":"SM02-sales-3","comment":"Третий переход в Продажу одним щелчком","windowId":1967738}
+{"time":"2026-11-21T10:01:02.761Z","role":"Администратор","label":"SM03-products","comment":"Открыт список номенклатуры","windowId":1967738}
+{"time":"2026-11-21T10:01:15.423Z","role":"Администратор","label":"SM03-milk","comment":"Карточка молока: наименование, единица, фотография","windowId":1967738}
+{"time":"2026-11-21T10:01:28.279Z","role":"Администратор","label":"SM03-list-after-milk","comment":"","windowId":1967738}
+{"time":"2026-11-21T10:01:35.801Z","role":"Администратор","label":"SM03-cream","comment":"Сметана: наименование, кг и фотография без искажения","windowId":1967738}
+{"time":"2026-11-21T10:01:43.494Z","role":"Администратор","label":"SM03-list-after-cream","comment":"","windowId":1967738}
+{"time":"2026-11-21T10:02:07.921Z","role":"Администратор","label":"SM03-curd","comment":"Творог: наименование, кг и фотография без искажения","windowId":1967738}
+{"time":"2026-11-21T10:02:16.817Z","role":"Администратор","label":"SM04-purchase-page","comment":"","windowId":1967738}
+{"time":"2026-11-21T10:02:23.414Z","role":"Администратор","label":"SM04-prices","comment":"Цены молоко 90, творог 360, сметана 280 руб.","windowId":1967738}
+{"time":"2026-11-21T10:02:30.686Z","role":"Администратор","label":"SM04-back-to-purchase","comment":"","windowId":1967738}
+{"time":"2026-11-21T10:02:38.659Z","role":"Администратор","label":"SM04-initial-stock","comment":"Начальная доступность продукции до операций","windowId":1967738}
+{"time":"2026-11-21T10:05:05.653Z","role":"Администратор","label":"SM04-initial-stock-review","comment":"Проверка чисел исходного отчёта","windowId":1967738}
+{"time":"2026-11-21T10:05:23.942Z","role":"Администратор","label":"SM04-before-role-switch","comment":"","windowId":1967738}
+{"time":"2026-11-21T10:05:45.210Z","role":"Покупка","label":"SM05-role-purchase","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:05:50.679Z","role":"Покупка","label":"SM05-new-receipt","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:05:58.531Z","role":"Покупка","label":"SM05-org","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:06:04.186Z","role":"Покупка","label":"SM05-warehouse","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:06:10.708Z","role":"Покупка","label":"SM05-supplier-choices","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:06:15.950Z","role":"Покупка","label":"SM05-suppliers","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:06:21.142Z","role":"Покупка","label":"SM05-supplier-selected","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:06:25.786Z","role":"Покупка","label":"SM05-row","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:06:35.908Z","role":"Покупка","label":"SM05-product-search","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:06:40.619Z","role":"Покупка","label":"SM05-product-selected","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:06:49.380Z","role":"Покупка","label":"SM05-quantity","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:06:57.890Z","role":"Покупка","label":"SM05-posted","comment":"Приход 2 л по 90 руб.","windowId":5573506}
+{"time":"2026-11-21T10:07:12.755Z","role":"Покупка","label":"SM05-dialog","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:07:18.836Z","role":"Покупка","label":"SM05-dialog-dismissed","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:07:23.330Z","role":"Покупка","label":"SM05-org-focus","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:07:29.121Z","role":"Покупка","label":"SM05-org-search","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:07:33.656Z","role":"Покупка","label":"SM05-org-confirmed","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:07:38.642Z","role":"Покупка","label":"SM05-stock-focus","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:07:47.194Z","role":"Покупка","label":"SM05-stock-search","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:07:51.592Z","role":"Покупка","label":"SM05-stock-suggestion","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:07:55.519Z","role":"Покупка","label":"SM05-stock-confirmed","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:08:00.614Z","role":"Покупка","label":"SM05-receipt-posted","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:08:06.473Z","role":"Покупка","label":"SM05-receipt-closed","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:08:12.509Z","role":"Покупка","label":"SM05-link-dismissed","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:08:17.437Z","role":"Покупка","label":"SM05-card-closed","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:08:22.915Z","role":"Покупка","label":"SM05-reports","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:08:28.501Z","role":"Покупка","label":"SM05-stock77","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:08:35.014Z","role":"Покупка","label":"SM05-return-home","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:08:40.265Z","role":"Покупка","label":"SM05-documents-tab","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:08:46.029Z","role":"Покупка","label":"SM05-receipts-journal","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:08:51.884Z","role":"Покупка","label":"SM05-journal-menu","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:08:58.273Z","role":"Покупка","label":"SM05-unposted","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:09:03.810Z","role":"Покупка","label":"SM05-home-after-unpost","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:09:09.389Z","role":"Покупка","label":"SM05-report-tab-return","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:09:15.837Z","role":"Покупка","label":"SM05-report-tab-ready","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:09:21.994Z","role":"Покупка","label":"SM05-stock-restored75","comment":"","windowId":5573506}
+{"time":"2026-11-21T10:09:43.955Z","role":"Продажа","label":"SM06-role-sales","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:09:49.559Z","role":"Продажа","label":"SM06-maximized","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:09:54.975Z","role":"Продажа","label":"SM06-new-sale","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:10:00.475Z","role":"Продажа","label":"SM06-org-focus","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:10:05.845Z","role":"Продажа","label":"SM06-org-search","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:10:11.485Z","role":"Продажа","label":"SM06-org-selected","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:10:17.067Z","role":"Продажа","label":"SM06-warehouse-search","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:10:23.973Z","role":"Продажа","label":"SM06-warehouse-selected","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:10:30.086Z","role":"Продажа","label":"SM06-buyer-list","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:10:37.027Z","role":"Продажа","label":"SM06-buyer-selected","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:10:44.517Z","role":"Продажа","label":"SM06-buyer-confirmed","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:10:51.040Z","role":"Продажа","label":"SM06-sale-row","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:10:56.530Z","role":"Продажа","label":"SM06-product-search","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:11:01.969Z","role":"Продажа","label":"SM06-product-selected","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:11:08.953Z","role":"Продажа","label":"SM06-one-litre","comment":"","windowId":31984810}
+{"time":"2026-11-21T10:11:14.883Z","role":"Продажа","label":"SM06-sale-posted","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:07:26.565Z","role":"Продажа","label":"SM06-resume","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:07:33.472Z","role":"Продажа","label":"SM06-resume-visible","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:07:40.186Z","role":"Продажа","label":"SM06-card-close","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:07:46.547Z","role":"Продажа","label":"SM06-report-tab","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:07:53.077Z","role":"Продажа","label":"SM06-stock74","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:07:58.967Z","role":"Продажа","label":"SM06-back","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:08:05.220Z","role":"Продажа","label":"SM06-docs","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:08:13.433Z","role":"Продажа","label":"SM06-journal","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:08:20.838Z","role":"Продажа","label":"SM06-menu","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:08:27.511Z","role":"Продажа","label":"SM06-unposted","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:08:33.696Z","role":"Продажа","label":"SM06-home","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:08:39.447Z","role":"Продажа","label":"SM06-report-return","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:08:46.559Z","role":"Продажа","label":"SM06-stock-restored75","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:08:54.954Z","role":"Продажа","label":"SM07-home","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:09:01.152Z","role":"Продажа","label":"SM07-docs","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:09:07.368Z","role":"Продажа","label":"SM07-new-reservation","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:09:14.651Z","role":"Продажа","label":"SM07-org-focus","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:09:20.297Z","role":"Продажа","label":"SM07-org-search","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:09:25.663Z","role":"Продажа","label":"SM07-org-confirm","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:09:33.097Z","role":"Продажа","label":"SM07-stock-search","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:09:39.055Z","role":"Продажа","label":"SM07-stock-confirm","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:09:46.197Z","role":"Продажа","label":"SM07-buyer-search","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:09:53.476Z","role":"Продажа","label":"SM07-buyer-confirm","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:10:01.066Z","role":"Продажа","label":"SM07-row","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:10:07.060Z","role":"Продажа","label":"SM07-product","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:10:14.053Z","role":"Продажа","label":"SM07-quantity20","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:10:20.304Z","role":"Продажа","label":"SM07-saved-unposted","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:10:27.661Z","role":"Продажа","label":"SM07-draft-closed","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:10:34.044Z","role":"Продажа","label":"SM07-draft-report-tab","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:10:41.828Z","role":"Продажа","label":"SM07-draft-reserve0","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:10:48.221Z","role":"Продажа","label":"SM07-home-return","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:10:56.672Z","role":"Продажа","label":"SM07-docs-return","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:11:06.101Z","role":"Продажа","label":"SM07-journal","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:11:12.704Z","role":"Продажа","label":"SM07-reopen","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:11:19.670Z","role":"Продажа","label":"SM07-posted","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:11:25.805Z","role":"Продажа","label":"SM07-posted-ready","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:11:33.642Z","role":"Продажа","label":"SM07-report-home","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:11:39.970Z","role":"Продажа","label":"SM07-report-tab-active","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:11:46.746Z","role":"Продажа","label":"SM07-active-stock","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:11:54.677Z","role":"Продажа","label":"SM07-free55","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:12:01.352Z","role":"Продажа","label":"SM07-free55-ready","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:12:08.876Z","role":"Продажа","label":"SM07-report-max","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:12:17.115Z","role":"Продажа","label":"SM07-full-report","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:12:26.685Z","role":"Продажа","label":"SM08-home","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:12:33.944Z","role":"Продажа","label":"SM08-docs","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:12:40.466Z","role":"Продажа","label":"SM08-sales-journal","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:12:50.666Z","role":"Продажа","label":"SM08-copy-sale","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:12:57.001Z","role":"Продажа","label":"SM08-quantity-focus","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:13:05.435Z","role":"Продажа","label":"SM08-quantity56","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:13:13.569Z","role":"Продажа","label":"SM08-refusal","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:13:20.595Z","role":"Продажа","label":"SM08-refusal-dismissed","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:13:27.895Z","role":"Продажа","label":"SM08-saved-unposted","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:13:35.642Z","role":"Продажа","label":"SM08-home-report","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:13:46.000Z","role":"Продажа","label":"SM08-report-tab","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:13:53.859Z","role":"Продажа","label":"SM08-stock-unchanged","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:14:02.452Z","role":"Продажа","label":"SM09-home","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:14:09.574Z","role":"Продажа","label":"SM09-docs","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:14:16.126Z","role":"Продажа","label":"SM09-journal","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:14:22.559Z","role":"Продажа","label":"SM09-card","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:14:29.966Z","role":"Продажа","label":"SM09-cancel","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:14:37.109Z","role":"Продажа","label":"SM09-report-home","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:14:43.375Z","role":"Продажа","label":"SM09-report-tab","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:14:49.697Z","role":"Продажа","label":"SM09-stock-restored","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:14:57.119Z","role":"Продажа","label":"SM09-stock-refreshed","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:15:03.877Z","role":"Продажа","label":"SM09-stock-confirmed","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:15:31.474Z","role":"Продажа","label":"SM10-home","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:15:38.112Z","role":"Продажа","label":"SM10-docs","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:15:44.507Z","role":"Продажа","label":"SM10-journal","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:15:51.929Z","role":"Продажа","label":"SM10-new-copy","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:15:58.727Z","role":"Продажа","label":"SM10-new-posted","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:16:05.610Z","role":"Продажа","label":"SM10-sale-by-reservation","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:16:16.070Z","role":"Продажа","label":"SM10-sale-closed","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:16:22.142Z","role":"Продажа","label":"SM10-bron-closed","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:16:29.010Z","role":"Продажа","label":"SM10-report-home","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:16:35.487Z","role":"Продажа","label":"SM10-report-tab","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:16:43.603Z","role":"Продажа","label":"SM10-report-open","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:16:50.333Z","role":"Продажа","label":"SM10-stock55","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:16:58.290Z","role":"Продажа","label":"SM11-home","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:17:06.202Z","role":"Продажа","label":"SM11-docs","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:17:12.931Z","role":"Продажа","label":"SM10-linked-journal","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:17:19.575Z","role":"Продажа","label":"SM10-linked-journal-refresh","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:17:28.786Z","role":"Продажа","label":"SM11-linked-selected","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:17:35.735Z","role":"Продажа","label":"SM11-menu","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:17:44.608Z","role":"Продажа","label":"SM11-linked-unposted","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:17:51.821Z","role":"Продажа","label":"SM11-report-home","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:17:59.765Z","role":"Продажа","label":"SM11-report-tab","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:18:06.774Z","role":"Продажа","label":"SM11-report-open","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:18:12.925Z","role":"Продажа","label":"SM11-reserve-restored","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:18:20.275Z","role":"Продажа","label":"SM11-cancel-home","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:18:28.226Z","role":"Продажа","label":"SM11-cancel-docs","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:18:36.818Z","role":"Продажа","label":"SM11-bron-journal","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:18:44.276Z","role":"Продажа","label":"SM11-bron-card","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:18:51.123Z","role":"Продажа","label":"SM11-bron-cancelled","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:18:57.406Z","role":"Продажа","label":"SM11-final-home","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:19:05.776Z","role":"Продажа","label":"SM11-final-tab","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:19:13.632Z","role":"Продажа","label":"SM11-final-report","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:19:20.296Z","role":"Продажа","label":"SM11-final-restored75","comment":"","windowId":31984810}
+{"time":"2026-11-21T18:20:02.488Z","role":"Покупка","label":"SM12-purchase","comment":"","windowId":2233942}
+{"time":"2026-11-21T18:20:10.684Z","role":"Покупка","label":"SM12-purchase-prices","comment":"","windowId":2233942}
+{"time":"2026-11-21T18:20:44.944Z","role":"Продажа","label":"SM12-sales","comment":"","windowId":24707608}
+{"time":"2026-11-21T18:21:10.821Z","role":"Администратор","label":"SM12-admin","comment":"","windowId":2561622}
+{"time":"2026-11-21T18:21:22.878Z","role":"Администратор","label":"UI127-home","comment":"","windowId":2561622}
+{"time":"2026-11-21T18:21:30.102Z","role":"Администратор","label":"UI127-plan","comment":"","windowId":2561622}
+{"time":"2026-11-21T18:21:40.908Z","role":"Администратор","label":"UI127-running","comment":"","windowId":2561622}
+{"time":"2026-11-21T18:22:00.075Z","role":"Администратор","label":"UI127-results","comment":"","windowId":2561622}
+{"time":"2026-11-21T18:22:07.542Z","role":"Администратор","label":"UI127-left-tests","comment":"","windowId":2561622}
+{"time":"2026-11-21T18:22:15.160Z","role":"Администратор","label":"UI127-reset-after-leave","comment":"","windowId":2561622}

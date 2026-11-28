@@ -1,0 +1,2 @@
+c384c91be9be46440a214acdd20fa3be023d4f2000c5d6c4c3d8a9e7034a2db6  Farm_Lugovaya_v1.2.6_Autotests.dt
+af8830009e6c4a182e7ceb9f27d64fae1c21b0a54dd2bd84f1d79860afe3865b  Farm_Lugovaya_v1.2.6_Autotests.cf

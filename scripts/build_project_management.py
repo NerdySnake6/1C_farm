@@ -320,6 +320,9 @@ def build():
         for style_name in ['Title', 'Heading 1', 'Heading 2']:
             document.styles[style_name].font.color.rgb = RGBColor(0, 0, 0)
         document.core_properties.version = '1.1'
+        # The revised budget supersedes the historical financial model.
+        from revise_project_budget import apply_budget
+        apply_budget(document, is_plan)
         document.save(path)
         print(path)
 
